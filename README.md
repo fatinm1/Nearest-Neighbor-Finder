@@ -1,6 +1,5 @@
 KDTree Nearest Neighbor Finder
 
-
 The KDTree Nearest Neighbor Finder is a C++ program designed to efficiently find the nearest geographical point of interest (POI) based on a given query location using a KD-Tree. This documentation covers the implementation details, setup instructions, and usage of the program.
 
 Program Overview
