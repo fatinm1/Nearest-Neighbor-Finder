@@ -46,26 +46,25 @@ g++ -std=c++11 -o KDTreeFinder driver.cpp location.cpp mytest.cpp
 
 This compiles the source files and links them into an executable named KDTreeFinder.
 
-Running Tests
+## Running Tests
 To run the provided tests, compile mytest.cpp along with location.cpp, substituting driver.cpp with mytest.cpp in the compilation command. Running these tests is recommended to verify the KD-Tree implementation's correctness.
 
-Usage
+## Usage
 After compiling the program, run it to perform nearest neighbor searches. driver.cpp is set up to accept user input for a query location and use the KDTree to find and display the nearest POI.
 
-Example Run
-sh
-Copy code
+## Example Run
 ./KDTreeFinder
+
 Follow the prompts to enter a latitude and longitude. The program will output the latitude and longitude of the nearest POI based on the provided locations.
 
-Extending the Program
+## Extending the Program
 Web Interface
 To create a web interface for the program, set up a server-side application (e.g., using Node.js, Flask, Django) that interacts with the C++ KDTree implementation. The provided location.html and location.css files can serve as the frontend starting point.
 
-Additional Features
+## Additional Features
 Consider adding features like bulk insertions, deletion, and range queries to enhance the KDTree's functionality.
 
-Contributions
+## Contributions
 Contributions are welcome. Whether bug fixes, improvements, or new features, please fork the repository, make your changes, and submit a pull request.
 
 ## License
