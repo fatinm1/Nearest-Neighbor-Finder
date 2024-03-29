@@ -68,10 +68,10 @@ Consider adding features like bulk insertions, deletion, and range queries to en
 Contributions
 Contributions are welcome. Whether bug fixes, improvements, or new features, please fork the repository, make your changes, and submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-MIT License
+## MIT License
 
 Copyright (c) [2024] [Fatin Mojumder]
 
