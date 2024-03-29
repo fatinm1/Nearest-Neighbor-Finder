@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Set background color to black */
+    color: white; /* Set font color to white */
+}
+
+#container {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Make input and label occupy their own line */
+label, input[type=number] {
+    display: block; /* Makes the element take up the full width available */
+    margin: 10px auto; /* Center the block horizontally */
+}
+
+input[type=number] {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px;
+    background-color: #333; /* Dark background for input */
+    border: 1px solid #444; /* Slightly different border color for input */
+    color: white; /* White text for input */
+}
+
+button {
+    display: block; /* Makes the button take up the full width available */
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px;
+    margin: 10px auto; /* Center the button horizontally */
+    background-color: #333; /* Dark background for button */
+    border: none;
+    color: white; /* White text for button */
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+/* Add styles for the form labels to ensure they are also white */
+label {
+    color: white;
+    margin-bottom: 5px; /* Space between the label and the input field */
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KDTree Nearest Neighbor Finder</title>
+<link rel="stylesheet" href="location.css">
+</head>
+<body>
+<div id="container">
+    <h2>KDTree Nearest Neighbor Finder</h2>
+    <form id="locationForm">
+        <label for="latitude">Enter latitude (-90 to 90):</label>
+        <input type="number" id="latitude" name="latitude" min="-90" max="90" required>
+
+        <label for="longitude">Enter longitude (-180 to 180):</label>
+        <input type="number" id="longitude" name="longitude" min="-180" max="180" required>
+
+        <button type="submit">Find Nearest POI</button>
+    </form>
+    <div id="result"></div>
+</div>
+<script src="location.js"></script>
+</body>
+</html>
