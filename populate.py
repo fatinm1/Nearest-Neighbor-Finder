@@ -5,9 +5,9 @@ from datetime import datetime, timedelta
 # Configuration
 repo_path = r"C:\Users\GAMER\Nearest-Neighbor-Finder"  # Use raw string to fix backslash issue
 file_name = "contribution_file.txt"  # A file to modify in the repo
-start_date = "2024-07-01"  # Start date for contributions (last three months)
-end_date = "2024-07-16"  # End date for contributions
-commits_per_day = 67  # Number of commits to make per day
+start_date = "2024-06-01"  # Start date for contributions (last three months)
+end_date = "2024-06-30"  # End date for contributions
+commits_per_day = 58  # Number of commits to make per day
 
 def run_git_command(command, cwd):
     """Run a git command in the specified directory."""
